@@ -1,0 +1,23 @@
+img {
+  width: 25%;
+}
+
+.card-body h6 {
+  line-height: unset;
+}
+
+#fullname-output,
+#discount,
+#posto,
+#number-reserved,
+#ticket-price {
+  text-align: left;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .card-body h6::after {
+    content: ":";
+  }
+}
