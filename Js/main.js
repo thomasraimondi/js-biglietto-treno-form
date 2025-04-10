@@ -86,7 +86,7 @@ formTicketTrainEl.addEventListener("submit", (event) => {
   numberReservepostoOutput.innerText = numberReserve;
   ticketPriceOutput.innerText = `€ ${finalPrice.toFixed(2)}`;
 
-  // outputInfo.classList.remove("d-none");
+  outputInfo.classList.remove("d-none");
 });
 
 // Function to generate a random 5-character string
